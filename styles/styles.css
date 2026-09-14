@@ -5,23 +5,11 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rbg(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
-
-}
-
-main img {
-    width: 150px;
-    height: auto;
-
-}
-
-aside img {
-    width: 200px;
-    height: auto;
 }
 
 nav {
@@ -39,12 +27,25 @@ h1 {
     color: darkblue;
 }
 
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid lightgray;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: .5px solid lightgray;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
 }
 
 p {
