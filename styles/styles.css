@@ -1,3 +1,8 @@
+:root {
+    --box-shadow: gray;
+    --borer-color: lightgray;
+}
+
 main {
     max-width: 840px;
 }
@@ -30,17 +35,17 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid lightgray;
+    border: 1px solid var(--borer-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--box-shadow);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: .5px solid lightgray;
+    border: .5px solid var(--borer-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--box-shadow);
 }
 
 aside img {
