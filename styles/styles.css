@@ -41,6 +41,9 @@ main img {
     border: 1px solid var(--borer-color);
     padding: 2px;
     box-shadow: 0 0 30px var(--box-shadow);
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 
 img {
@@ -59,9 +62,9 @@ aside img {
 
 aside h2 {
     position: absolute;
+    top: 3rem;
     left: 50%;
     transform: translateX(-50%);
-    top: 3rem;
 
 }
 
