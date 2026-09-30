@@ -19,10 +19,20 @@
 header {
     background-color: var(--dark-color);
     color: var(--light-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
+    width: 840px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+
+}
+
+header img {
+    max-width: 180px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 50%;
 }
 
 * {
@@ -70,6 +80,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 h1 {
@@ -104,6 +115,13 @@ h1 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+}
+
 nav a {
     color: var(--light-color);
     text-decoration: none;
@@ -114,6 +132,11 @@ nav a {
 
 nav a:hover {
     color: var(--accent2-color)
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
 }
 
 .socialmedia img {
@@ -145,4 +168,64 @@ section h2 {
     padding-left: 15px;
     margin-top: 20px;
     margin-bottom: 15px;
+}
+
+.history .history-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.history .history-content p {
+    text-align: justify;
+    padding: 0 15px;
+    line-height: 1.6; 
+}
+
+.history img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.history h2 {
+    text-align: center;
+    border-left: none;
+    padding-left: 0;
+}
+
+.adventures .adventures-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.adventures figure {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+    border-radius: 15px;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adventures h2 {
+    text-align: center;
+    border-left: none;
+    padding-left: 0;
+}
+
+footer {
+    width: 840px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
