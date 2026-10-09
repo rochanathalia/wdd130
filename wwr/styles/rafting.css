@@ -472,3 +472,197 @@ main h1 {
     color: var(--dark-color);
     font-size: 1rem;
 }
+
+/* HOME PAGE */
+
+
+.newsletter {
+    background-color: var(--light-color);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2edf2e9;
+}
+
+.newsletter h2 {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.newsletter label {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+}
+
+.newsletter input[type="text"]:focus,
+.newsletter input[type="email"]:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.newsletter button[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button[type="submit"]:hover {
+    background-color: var(--dark-color);
+}
+
+.cta {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--dark-color);
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: var(--light-color);
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: var(--accent2-color);
+    transform: translateY(-2px);
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: none;
+}
+
+.home-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.family, 
+.text-content-2 {
+    padding: 15px;
+}
+
+.home-grid h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.home-grid p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    color: var(--dark-color);
+}
+
+/* TRIPS */
+
+
+.cta-contact {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.trips-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.trip-card {
+    background-color: var(--light-color);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2edf2e9;
+}
+
+.trip-carde img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.trip-carde h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10xx;
+    border-left: none;
+    padding-left: 0;
+}
+
+.trips-table-section {
+    margin-bottom: 50px;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: var(--light-color);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.trips-table th, 
+.trips-table td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-family: var(--heading-font);
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
