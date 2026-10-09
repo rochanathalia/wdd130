@@ -551,8 +551,9 @@ main h1 {
 
 .cta-button {
     display: inline-block;
-    background-color: var(--accent1-color);
+    background-color: #00609c;
     color: var(--light-color);
+    font-weight: bold;
     text-decoration: none;
     padding: 12px 30px;
     border-radius: 6px;
@@ -563,7 +564,7 @@ main h1 {
 }
 
 .cta-button:hover {
-    background-color: var(--accent2-color);
+    background-color: #014772;
     transform: translateY(-2px);
 }
 
