@@ -626,16 +626,16 @@ main h1 {
     border: 1px solid #e2edf2e9;
 }
 
-.trip-carde img {
+.trip-card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-.trip-carde h2 {
+.trip-card h2 {
     font-size: 1.6rem;
-    margin-bottom: 10xx;
+    margin-bottom: 10px;
     border-left: none;
     padding-left: 0;
 }
